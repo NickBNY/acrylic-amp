@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-<title>Acryl Player</title>
+<title>Arylic Player</title>
  <style>
   p {
     color: black;
@@ -20,17 +20,17 @@
 	<h1>Kitchen Music</h2>
 
  <button><a id='link1' href="http://192.168.68.119/httpapi.asp?command=setPlayerCmd:vol:0">Mute</a></button>
- <button><a id='link1' href="http://192.168.68.119/httpapi.asp?command=setPlayerCmd:vol:20">Volume 20</a></button>
- <button><a id='link1' href="http://192.168.68.119/httpapi.asp?command=setPlayerCmd:vol:30">Volume 30</a></button>
- <button><a id='link1' href="http://192.168.68.119/httpapi.asp?command=setPlayerCmd:vol:50">Volume 50</a></button>
- <button><a id='link1' href="http://192.168.68.119/httpapi.asp?command=setPlayerCmd:vol:80">Volume 80</a></button><br><br>
- <button><a id='link1' href="http://192.168.68.119/httpapi.asp?command=setPlayerCmd:play">Play</a></button>
- <button><a id='link2' href="http://192.168.68.119/httpapi.asp?command=setPlayerCmd:pause">Pause</a></button>
- <button><a id='link1' href="http://192.168.68.119/httpapi.asp?command=setPlayerCmd:resume">Resume</a></button> 
+ <button><a id='link2' href="http://192.168.68.119/httpapi.asp?command=setPlayerCmd:vol:20">Volume 20</a></button>
+ <button><a id='link3' href="http://192.168.68.119/httpapi.asp?command=setPlayerCmd:vol:30">Volume 30</a></button>
+ <button><a id='link4' href="http://192.168.68.119/httpapi.asp?command=setPlayerCmd:vol:50">Volume 50</a></button>
+ <button><a id='link5' href="http://192.168.68.119/httpapi.asp?command=setPlayerCmd:vol:80">Volume 80</a></button><br><br>
+ <button><a id='link6' href="http://192.168.68.119/httpapi.asp?command=setPlayerCmd:play">Play</a></button>
+ <button><a id='link7' href="http://192.168.68.119/httpapi.asp?command=setPlayerCmd:pause">Pause</a></button>
+ <button><a id='link8' href="http://192.168.68.119/httpapi.asp?command=setPlayerCmd:resume">Resume</a></button> 
  <br><br>
 
- <button><a id='link1' href="http://192.168.68.119/httpapi.asp?command=setPlayerCmd:prev">Prev</a></button>
- <button><a id='link1' href="http://192.168.68.119/httpapi.asp?command=setPlayerCmd:next">Next</a></button>
+ <button><a id='link9' href="http://192.168.68.119/httpapi.asp?command=setPlayerCmd:prev">Prev</a></button>
+ <button><a id='link10' href="http://192.168.68.119/httpapi.asp?command=setPlayerCmd:next">Next</a></button>
 </body>
 
 
@@ -46,6 +46,98 @@
     });
  });
 $("#link2").on('click', function(e) {
+    // prevent the default action, in this case the following of a link
+    e.preventDefault();
+    // capture the href attribute of the a element
+    var url = $(this).attr('href');
+    // perform a get request using ajax to the captured href value
+    $.get(url, function() {
+        // success
+    });
+ });
+	
+$("#link3").on('click', function(e) {
+    // prevent the default action, in this case the following of a link
+    e.preventDefault();
+    // capture the href attribute of the a element
+    var url = $(this).attr('href');
+    // perform a get request using ajax to the captured href value
+    $.get(url, function() {
+        // success
+    });
+ });
+	
+	$("#link4").on('click', function(e) {
+    // prevent the default action, in this case the following of a link
+    e.preventDefault();
+    // capture the href attribute of the a element
+    var url = $(this).attr('href');
+    // perform a get request using ajax to the captured href value
+    $.get(url, function() {
+        // success
+    });
+ });
+	$("#link5").on('click', function(e) {
+    // prevent the default action, in this case the following of a link
+    e.preventDefault();
+    // capture the href attribute of the a element
+    var url = $(this).attr('href');
+    // perform a get request using ajax to the captured href value
+    $.get(url, function() {
+        // success
+    });
+ });
+	$("#link6").on('click', function(e) {
+    // prevent the default action, in this case the following of a link
+    e.preventDefault();
+    // capture the href attribute of the a element
+    var url = $(this).attr('href');
+    // perform a get request using ajax to the captured href value
+    $.get(url, function() {
+        // success
+    });
+ });
+	$("#link7").on('click', function(e) {
+    // prevent the default action, in this case the following of a link
+    e.preventDefault();
+    // capture the href attribute of the a element
+    var url = $(this).attr('href');
+    // perform a get request using ajax to the captured href value
+    $.get(url, function() {
+        // success
+    });
+ });
+	$("#link8").on('click', function(e) {
+    // prevent the default action, in this case the following of a link
+    e.preventDefault();
+    // capture the href attribute of the a element
+    var url = $(this).attr('href');
+    // perform a get request using ajax to the captured href value
+    $.get(url, function() {
+        // success
+    });
+ });
+	$("#link9").on('click', function(e) {
+    // prevent the default action, in this case the following of a link
+    e.preventDefault();
+    // capture the href attribute of the a element
+    var url = $(this).attr('href');
+    // perform a get request using ajax to the captured href value
+    $.get(url, function() {
+        // success
+    });
+ });
+	$("#link10").on('click', function(e) {
+    // prevent the default action, in this case the following of a link
+    e.preventDefault();
+    // capture the href attribute of the a element
+    var url = $(this).attr('href');
+    // perform a get request using ajax to the captured href value
+    $.get(url, function() {
+        // success
+    });
+ });
+	$("#link11").on('click', function(e) {
     // prevent the default action, in this case the following of a link
     e.preventDefault();
     // capture the href attribute of the a element
